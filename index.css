@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    vertical-align: middle;
+    list-style: none;
+}
+
+.banner {
+    margin-top: 50px;
+    width: 1920px;
+    height: 390px;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner-con {
+    width: 11520px;
+    height: 100%;
+    /* margin-left: -0px; */
+    transition: all .5s ease-out;
+}
+
+.banner a {
+    display: block;
+    width: 1920px;
+    height: 390px;
+    float: left;
+    overflow: hidden;
+}
+
+.banner a:nth-child(1) {
+    background: url(http://www.sxuek.com/statics/images/uek/banner-hyhj.jpg) center center no-repeat;
+}
+
+.banner a:nth-child(2) {
+    background: url(http://www.sxuek.com/statics/images/uek/banner-xtyr.jpg) center center no-repeat;
+}
+
+.banner a:nth-child(3) {
+    background: url(http://www.sxuek.com/statics/images/uek/banner00.jpg) center center no-repeat;
+}
+
+.banner a:nth-child(4) {
+    background: url(http://www.sxuek.com/statics/images/uek/banner2.jpg) center center no-repeat;
+}
+
+.banner a:nth-child(5) {
+    background: url(http://www.sxuek.com/statics/images/uek/banner3.jpg) center center no-repeat;
+}
+
+.banner a:nth-child(6) {
+    background: url(http://www.sxuek.com/statics/images/uek/banner4.jpg) center center no-repeat;
+}
+
+.banner-bar {
+    width: 420px;
+    height: 10px;
+    position: absolute;
+    bottom: 11px;
+    left: 750px;
+}
+
+.item {
+    width: 60px;
+    height: 2px;
+    margin-right: 10px;
+    background-color: rgba(255,255,255,1);
+    float: left;
+    cursor: pointer;
+}
